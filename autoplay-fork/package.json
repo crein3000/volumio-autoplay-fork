@@ -6,13 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "Thomas Doerr",
+	"author": "crein",
 	"license": "ISC",
 	"volumio_info": {
 		"prettyName": "AutoStart",
 		"icon": "fa-play-circle-o",
 		"plugin_type": "system_controller",
 		"boot_priority": 10
+	},
+	"engines": {
+		"node": ">=8",
+		"volumio": ">=3"
 	},
 	"dependencies": {
 		"kew": "^0.7.0",
