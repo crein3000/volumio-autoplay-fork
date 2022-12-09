@@ -1,6 +1,6 @@
 {
 	"name": "autoplay-fork",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "This plugin is a fork of thomas.doerr's autostart plugin that was never update for Volumio v3. It starts the first entry in the queue or from the last played position after rebooting volumio.",
 	"main": "index.js",
 	"scripts": {
